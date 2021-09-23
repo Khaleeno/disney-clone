@@ -11,7 +11,7 @@ export const getStaticProps = async () => {
     },
   })
 
-  const query = gql`
+  const videosquery = gql`
     query {
       videos {
         createdAt
@@ -31,7 +31,7 @@ export const getStaticProps = async () => {
     }
   `
 
-  const data = await graphQLClient.request(query)
+  const data = await graphQLClient.request(videosquery)
 
   const videos = data.videos
 
