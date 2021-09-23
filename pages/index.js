@@ -1,4 +1,5 @@
 import { gql, GraphQLClient } from "graphql-request"
+import NavBar from "../components/NavBar"
 
 import Section from "../components/Section"
 
@@ -57,6 +58,7 @@ const Home = ({ videos }) => {
 
   return (
     <>
+      <NavBar/>
       <div className="app">
         <div className="main-video">
           <img

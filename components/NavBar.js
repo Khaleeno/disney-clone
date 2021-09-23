@@ -1,11 +1,11 @@
 import Link from 'next/Link'
 import Image from 'next/image'
-import logo from '../public/Disney_logo.svg.png'
+import logo from '../public/Disney_logo.svg'
 
 const NavBar = () => {
   return (
     <div className='navbar'>
-      <Link>
+      <Link href="/">
         <Image src={logo} alt={"Disney Logo"} width={90} height={50}/>
       </Link>
     </div>
