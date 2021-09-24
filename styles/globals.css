@@ -26,6 +26,9 @@ a {
   height: 80px;
   width: auto;
   display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  margin-bottom: 0;
 }
 
 .main-video {
@@ -68,4 +71,32 @@ a {
 
 .info-footer {
   height: 100vh;
+}
+
+.account-info {
+  display: flex;
+  height: 50%;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border: 50%;
+  margin-left: 10px;
+}
+
+.franchise {
+  width: 20%;
+  background-color: #808080;
+  margin: 5px;
+  border-radius: 10px;
+  display: flex;
+}
+
+.franchise:hover {
+  cursor: pointer;
+}
+
+.video-feed {
+  display: flex;
 }
